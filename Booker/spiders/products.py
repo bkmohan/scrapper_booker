@@ -1,9 +1,9 @@
 import scrapy
 from urllib.parse import parse_qs, quote, urlsplit
 
-CUST_NO = 725936088
-EMAIL = 'jonathan.hastings@costcutter.com'
-PASS = 'Ebor,123'
+CUST_NO = 123456
+EMAIL = '*********.com'
+PASS = '****'
 
 def get_description(lines):
     description = ''
